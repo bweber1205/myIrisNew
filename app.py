@@ -14,7 +14,7 @@ def load_model():
     global model
     # model variable refers to the global variable
     script_dir = os.path.dirname(__file__)
-    fileName = 'iris_trained_model.pkl'
+    fileName = 'model.pkl'
     path = script_dir + '/' + fileName
     print(path)
     with open(path, 'rb') as f:
